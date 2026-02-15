@@ -1,0 +1,15 @@
+{
+    "name": "Git Rescue Mission Lab",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {
+            "configureZshAsDefaultShell": true
+        }
+    },
+    "postCreateCommand": "echo 'Welcome to the Git Rescue Mission! Your terminal is ready. Follow the instructions in the README.md file.'",
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["README.md"]
+        }
+    }
+}
