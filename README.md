@@ -72,3 +72,12 @@ git merge feature-dark-mode
 
 **Attention:** You will see a **MERGE CONFLICT**. Open `app.py`, resolve it manually to keep both the Security Patch and the Dark Mode, then commit.*
 
+**"Equip Your Gear":       |           جهز أدواتك**
+
+"Before you start, real Architects don't type long commands. Run these lines to set up your shortcuts:"   قم بإصدار هذه الآوامر لاعداد اختصاراتك: 
+
+Bash
+git config --global alias.s "status"
+git config --global alias.c "commit -m"
+git config --global alias.l "log --oneline --graph --all"
+Now, instead of typing git status, they can just type git s.    الآن، بدلاً من كتابة أمر git status، يمكنك كتابة أمر git s.

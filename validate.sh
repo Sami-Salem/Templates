@@ -21,5 +21,16 @@ else
     echo "❌ [3/3] Version history is too short. Did you commit everything?"
     exit_code=1
 fi
-
+if [ $exit_code -eq 0 ]; then
+    clear
+    echo -e "\033[1;32m"
+    echo "  __  __  ___  ____  ____  ___  ___  _   _     "
+    echo " |  \/  ||_ _||_  / / ___||_ _||_ _|N | | |    "
+    echo " | |\/| | | |  / /  \___ \ | |  | | |  \| |    "
+    echo " | |  | | | | / /_   ___) || |  | | | |\  |    "
+    echo " |_|  |_||___|____| |____/|___||___||_| \_|    "
+    echo "                                               "
+    echo "       CODEBASE RESTORED. GOOD JOB.            "
+    echo -e "\033[0m"
+fi
 exit $exit_code
