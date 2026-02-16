@@ -4,6 +4,9 @@
     "features": {
         "ghcr.io/devcontainers/features/common-utils:1": {
             "configureZshAsDefaultShell": true
+        },
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "latest"
         }
     },
     "postCreateCommand": "echo 'Welcome to the Git Rescue Mission! Your terminal is ready. Follow the instructions in the README.md file.'",
